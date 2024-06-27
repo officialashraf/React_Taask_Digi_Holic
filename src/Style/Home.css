@@ -1,0 +1,74 @@
+/* Home.css */
+
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #ff4a4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #e33e3e;
+  }
+  
+  .hero {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .hero p {
+    margin: 10px 0;
+  }
+  
+  .shop-now-button {
+    padding: 10px 20px;
+    background-color: #ff4a4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #e33e3e;
+  }
+  
+ 
